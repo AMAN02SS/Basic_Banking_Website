@@ -1,0 +1,126 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html,body {
+    
+  /* background-image: url(background.png); */
+  height: 100%; 
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+} 
+.navbar
+{
+  width:100%;
+  white-space:nowrap;
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+.main_div
+{
+  width:100%;
+  height:100vh;
+  
+}
+.main_text
+{
+  font-size:60px;
+  font-family: sans-serif;
+}
+
+.header{
+  font-size:70px;
+}
+
+.running-txt{
+  font-size: 40px;
+}
+
+.art{
+  display: flex;
+  width: 25%;
+  height: 25%;
+  margin-top: 90px;
+  margin-right: 90px;
+}
+.w3-content .w3-section{
+  display: flex;
+  width: 25%;
+  height: 25%;
+  margin-top: 90px;
+  margin-right: 90px;
+}
+
+
+.big-text
+{
+ 
+  margin:20px 0;
+  color:white;
+  font-family: 'JetBrains Mono', monospace;
+}
+.contactus{
+  width:100%;
+  height: 100%;
+  padding: 80px 0;
+  position: relative;
+  /* background-image: url(background.png); */
+  height: 100%; 
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contactus:before{
+  content:"";
+  position: absolute;
+  top:0;
+  left:0;
+  bottom: 0;
+  right:0;
+  /* background-image: url(background.png); */
+  height: 100%; 
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.formbutton button{
+  border:1px solid rgb(6, 168, 243);
+  border-radius:100px;
+  margin:0 50px;
+  padding: 12px 35px;
+
+  outline:none;
+  columns: rgb(6, 168, 243);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  background:transparent;
+  color:rgb(6, 168, 243);
+ 
+}
+form:hover .formbutton button{
+
+
+box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+color:white;
+background:#3bbae0;
+border:none;
+opacity:0.8;
+}
+
+@media(min-width:200px)
+{
+  .main_div
+  {
+      max-height:auto;
+  }
+}
