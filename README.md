@@ -2,7 +2,7 @@
 A Web Application used to transfer money between multiple users.
 ## THE SPARKS FOUNDATION -GRIP-WEB AND MOBILE DEVELOPMENT TASKS-JANUARY 2022
 # TASK 1: - BASIC BANKING SYSTEM
-# CREATED BY – SAHASREE CHATTERJEE
+# CREATED BY – AMAN SINGH SIKARWAR
 ## Sparks Foundation Internship Project: Basic Banking System
 A Web Application used to transfer money between multiple users.
 Stack used - Front-end: HTML, CSS, Bootstrap & JavaScript Back-end: PHP & Database: MySQL and phpMyAdmin
